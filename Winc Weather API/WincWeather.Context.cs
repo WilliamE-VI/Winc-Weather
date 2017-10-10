@@ -26,5 +26,6 @@ namespace Winc_Weather_API
         }
     
         public virtual DbSet<Location> Locations { get; set; }
+        public virtual DbSet<WeatherCache> WeatherCaches { get; set; }
     }
 }

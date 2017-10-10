@@ -6,6 +6,7 @@
     <edmx:Diagrams>
       <Diagram DiagramId="e2fae0374ef540189bcf367ccbf7086b" Name="Diagram1" >
         <EntityTypeShape EntityType="WincWeatherModel.Location" Width="1.5" PointX="0.75" PointY="0.75" />
+        <EntityTypeShape EntityType="WincWeatherModel.WeatherCache" Width="1.5" PointX="3.375" PointY="0.75" />
       </Diagram>
     </edmx:Diagrams>
   </edmx:Designer>

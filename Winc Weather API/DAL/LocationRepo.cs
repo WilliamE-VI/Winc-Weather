@@ -5,7 +5,7 @@ using System.Web;
 
 namespace Winc_Weather_API.DAL
 {
-    public static class LocationAccess
+    public static class LocationRepo
     {
         public static Location GetLocationByZip(string zip)
         {
