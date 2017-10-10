@@ -25,9 +25,9 @@ namespace Winc_Weather_API.DAL
             using (var db = new WincWeatherEntities())
             {
                 return db.WeatherCaches.FirstOrDefault(n => 
-                n.LocationId == locationId &&
-                n.TimeReceived > DbFunctions.AddMinutes(DateTime.Now, -5)
-                )?.Response;
+                    n.LocationId == locationId &&
+                    n.TimeReceived > DbFunctions.AddMinutes(DateTime.Now, -5)
+                    )?.Response;
             }
         }
     }
